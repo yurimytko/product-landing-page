@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=PT+Sans&display=swap');
+body {
+    margin: 0%;
+}
+#header {
+    background-color: #0b121f;
+    display: flex;
+    flex-direction: column;
+   
+}
+.header-top {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;;
+}
+#header-img {
+    width: 96px;
+}
+#nav-bar {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-family:'PT Sans', sans-serif;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.nav-link:hover {
+    color: #ffc560;
+}
+@media (max-width: 417px) {
+    #nav-bar {
+        display: none;
+    }
+}
+.header-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 30px;
+    background-image: url(img/chess-header.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.left-items {
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    margin: 0%;
+    color: white;
+    font-size: 96px;
+    font-family: 'Oswald', sans-serif;
+}
+.line {
+    width: 50%;
+    height: 2px;
+    background-color: #ffc560;
+}
+.subtitle {
+    color: white;
+    font-family:'PT Sans', sans-serif;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc560;
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    transition: 0.5s;
+}
+.button:hover {
+    background-color: white;
+}
+.text-in-button {
+    text-decoration: none;
+    color: black;
+    font-family:'PT Sans', sans-serif;
+    font-weight: bold;
+}
+.empty-block {
+    width: 540px;
+    height: 287px;
+}
+.aboutus {
+    padding: 70px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.aboutus-text-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutus-photo {
+    width: 80%;
+    height: 300px;
+    background-image: url(img/chesses.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.aboutus-heading {
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    color: #0b121f;
+    margin: 10px 0px;
+}
+.svg-line {
+    width: 300px;
+}
+.aboutus-text {
+    font-size: 17px;
+    font-family:'PT Sans', sans-serif;
+    color: #808080;
+    text-align: center;
+}
+.aboutus-card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 0px 20px;
+}
+.card {
+    padding: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px #80808036 solid;
+}
+.card-heading {
+    margin: 10px 0px;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: #0b121f;
+}
+.card-text {
+    font-size: 17px;
+    font-family:'PT Sans', sans-serif;
+    color: #808080;
+    text-align: center;
+}
+.what-we-offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.what-we-offer-text-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.what-we-offer-heading {
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    color: #0b121f;
+    margin: 10px 0px;
+    text-align: center;
+}
+.what-we-offer-text {
+    font-size: 17px;
+    font-family:'PT Sans', sans-serif;
+    color: #808080;
+    text-align: center;
+    padding: 0px;
+}
+.offers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding: 20px 20px;
+
+}
+.offer-card {
+    padding: 50px 70px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: url(img/what-we-offer-card-back.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-shadow: 5px 1px 20px #0b121f;
+}
+.offer-heading {
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+.offer-text {
+    font-size: 17px;
+    color: white;
+    font-family:'PT Sans', sans-serif;
+}
+.events {
+    padding-bottom: 30px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b121f;
+}
+.evnts-container-text {
+    margin-top: 40px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.events-heading {
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    margin: 10px 0px;
+}
+.events-text {
+    font-size: 17px;
+    font-family:'PT Sans', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0px;
+}
+.container-w-events {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 40px 0;
+}
+.event-container {
+    width: 80%;
+    background-color: #80808028;
+    border: 1px #80808057 solid;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.left-container-heading{
+    width: 40%;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: #ffc560;
+    font-weight: 700;
+    text-align: center;
+}
+.left-container-text {
+    font-size: 17px;
+    font-family:'PT Sans', sans-serif;
+    color: white;
+}
+.event-photo {
+    width: 170px;
+}
+.right-container-heading {
+    width: 60%;
+    font-size: 22px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.right-container-text {
+    font-size: 17px;
+    font-family:'PT Sans', sans-serif;
+    color: white;
+}
+.contacts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 20;
+}
+.contacts-text-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.contacts-heading {
+    font-size: 48px;
+    font-family: 'Oswald', sans-serif;
+    color: #0b121f;
+    margin: 10px 0px;
+}
+.contacts-text {
+    font-size: 17px;
+    font-family:'PT Sans', sans-serif;
+    color: #808080;
+}
+.contact-form {
+    width: 100%;
+    margin: 2rem auto;
+    border: 1px #80808057 solid;
+    padding: 40px 40px; 
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+label {
+    display: block;
+}
+input {
+    padding: 10px 20px; 
+    display: block;
+    margin-top: 40px;
+    font-size: 19px;
+    background-color: #f7f7f1;
+    border-radius: 2%;
+    border: none;
+}
+#send-butn {
+    background-color: #ffc560;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.2s;
+}
+#send-butn:hover {
+    color: white;
+    background-color: black;
+}
